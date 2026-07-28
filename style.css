@@ -896,7 +896,24 @@ z-index:2;
 }
 /* ===== Mobile Hero ===== */
 @media (max-width:768px){
+.hero-text{
+    width:100%;
+    max-width:100%;
+}
 
+.hero-text p,
+.hero-tagline{
+    width:100%;
+    max-width:100%;
+    padding:0 20px;
+    font-size:16px;
+    text-align:center;
+    word-break:break-word;
+}
+
+body{
+    overflow-x:hidden;
+}
 .hero{
     padding:120px 20px 60px;
     min-height:auto;
