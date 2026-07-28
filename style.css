@@ -894,3 +894,51 @@ z-index:0;
 position:relative;
 z-index:2;
 }
+/* ===== Mobile Hero ===== */
+@media (max-width:768px){
+
+.hero{
+    padding:120px 20px 60px;
+    min-height:auto;
+}
+
+.hero-text{
+    max-width:100%;
+}
+
+.hero-text h1{
+    font-size:40px;
+}
+
+.hero-text h2{
+    font-size:24px;
+}
+
+.hero-text h3{
+    font-size:20px;
+}
+
+.hero-text p,
+.hero-tagline{
+    font-size:16px;
+    max-width:100%;
+    margin:auto;
+}
+
+.hero-buttons{
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+    align-items:center;
+}
+
+.btn{
+    width:220px;
+    margin:0;
+}
+
+.hero-stats{
+    grid-template-columns:repeat(2,1fr);
+    width:100%;
+}
+}
